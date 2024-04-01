@@ -36,8 +36,9 @@ const Projects = () => {
                     <div className="project-2">
                         <img className="logo" src={countryTing}></img>
                         <h5>Country/city API</h5>
-                        <p>This is a Todo-list I have created by myself. I have added two buttons on each list-item
-                            Delete Button and a Higlight Button.</p>
+                        <p>This was a fun little project I made. You type in a country and the magic will happen. 
+                            Just got a city/country API where depending on the country, just get the information about it.
+                        </p>
 
                         <ul>
                         <li>Javascript</li>
@@ -55,8 +56,9 @@ const Projects = () => {
                     <div className="project-3">
                         <img className="logo" src={movieData}></img>
                         <h5>Movie Data Website</h5>
-                        <p>This is a Todo-list I have created by myself. I have added two buttons on each list-item
-                            Delete Button and a Higlight Button.</p>
+                        <p>This is a movie-data app. Where you get all the different movies depending on your choice. 
+                            This is a free movie API i got. I did get a little help with some of the syntax, but mostly did it by myself.
+                        </p>
                         
                         <ul>
                         <li>Javascript</li>
