@@ -43,7 +43,7 @@ const About = () => {
                             I'm <span className="span-video">Nicklas Tümmler.</span>
                         </div>
                     </h1>
-
+                    <div class="about-img-wrapper">
                     <div className="about-img-container">
                         <img
                             className="about-img"
@@ -52,6 +52,7 @@ const About = () => {
                             alt="Your Image"
                             style={{ opacity: 0 }}
                         />
+                    </div>
                     </div>
 
                     <div className="about-me-p" ref={textRef} style={{ opacity: 0, transform: 'translateY(50px)' }}>
