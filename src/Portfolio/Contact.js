@@ -20,7 +20,7 @@ const Contact = () => {
         <header id="contact">
             <main className="main-contact">
                 <div className="div-contact">
-                    <form onChange={handleForm} className="form-contact" action="mailto:nicklastummler12@gmail.com" method="post" enctype="text/plain">
+                    <form onChange={handleForm} className="form-contact" action="mailto:nicklastummler12@gmail.com" method="post" enctype="text/plain" noValidate>
                     <h1>Contact Me</h1>
                         <div className="name-inputs">
                             <input
