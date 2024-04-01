@@ -57,7 +57,7 @@ const Projects = () => {
                         <img className="logo" src={movieData}></img>
                         <h5>Movie Data Website</h5>
                         <p>This is a movie-data app. Where you get all the different movies depending on your choice. 
-                            This is a free movie API i got. I did get a little help with some of the syntax, but mostly did it by myself.
+                            This is a free movie API I got. I did get a little help with some of the syntax, but mostly did it by myself.
                         </p>
                         
                         <ul>
