@@ -951,6 +951,9 @@ textarea,
   background-color: #111113;
   padding: 20px; /* Added padding */
 }
+.div-about-h1{
+  margin-top: -5rem;
+}
 
 .about-img-container {
   max-width: 100%;

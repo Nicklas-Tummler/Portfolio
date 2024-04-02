@@ -60,11 +60,11 @@ const Navbar = () => {
                     <FontAwesomeIcon className="bars-icon" onClick={toggleFaBar} icon={faBars} />
                 </div>
                 <ul className={`fa-bar-navbar ${showFaBarsIcon ? 'show' : ''}`}> 
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#" onClick={scrollToAbout}>About</a></li>
-                    <li><a href="#">Skills</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Contact</a></li>
+                        <li><a href="#" onClick={scrollToHome}>Home</a></li>
+                        <li><a href="#" onClick={scrollToAbout}>About</a></li>
+                        <li><a href="#" onClick={scrollToSkills}>Skills</a></li>
+                        <li><a href="#" onClick={scrollToProject}>Projects</a></li>
+                        <li><a href="#" onClick={scrollToContact}>Contact</a></li>
                 </ul>
             </main>
         </header>
