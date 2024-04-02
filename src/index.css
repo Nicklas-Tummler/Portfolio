@@ -968,6 +968,14 @@ textarea,
   margin-top: 2rem;
   margin-left: -4rem;
 }
+@media screen and (max-width: 768px) {
+  .about-me-p{
+    margin-top: 45rem;
+  }
+  .about-img{
+    
+  }
+}
 
 .about-me-p {
   margin-top: 12.5rem; /* Adjusted margin */
@@ -978,6 +986,21 @@ textarea,
 @media screen and (max-width: 768px) {
   .about-img-container {
     margin-top: 2rem; /* Adjusted margin */
+  }
+}
+@media screen and (max-width: 430px) {
+  .about-me-p{
+    margin-top: 25rem;
+  }
+}
+@media screen and (max-width: 414px) {
+  .about-me-p{
+    margin-top: 25rem;
+  }
+}
+@media screen and (max-width: 375px) {
+  .about-me-p{
+    margin-top: 15rem;
   }
 }
 
